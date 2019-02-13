@@ -67,7 +67,22 @@ class Export_Comment_Author_Emails{
 						<td><label><strong><?php echo  __( 'Found Emails', 'ecae' ) ?></strong></label></td>
 						<td>
 							<textarea style="width:100%;height:300px;" readonly><?php echo esc_textarea( $email_list_text ) ?></textarea><br>
-							<?php echo  sprintf( __( '%d email address has been found. Only maximum 50 emails are being shown here', 'ecae' ), $count ); ?>
+							<?php 
+								if( $count == 0 )
+								{
+									echo  __( 'No email address has been found.', 'ecae' ); 
+								}
+								elseif( $count == 1 )
+								{
+									echo  sprintf( __( '%d email address has been found.', 'ecae' ), $count );
+								}
+								else
+								{
+									echo  sprintf( __( '%d email addresses have been found.', 'ecae' ), $count );
+								}
+								echo " ";
+								echo __( 'Maximum 50 items will be shown here', 'ecae' );
+							?>
 						</td>
 					</tr>
 					<tr>
