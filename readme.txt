@@ -15,6 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create and export email list from existing comments on your website. Export comment author's name, email address and website url as CSV or Text file. 
 
 == Description ==
+Do you know you have a hidden email list on your website? Increase your email list by exporting visitors' emails from existing comments on your website.
+
 Using **Export Comment Author Emails** plugin you can create and export email list from existing comments on your website. Export comment author's name, email address and website url in CSV or plain text format. Some comments are marked as spam. This plugin will not take email address from spam comments. You can choose which fields you want to export. By default, it will export emails as Comma-Separated CSV file. You can choose the separator text. This is a very helpful plugin for email list building. You can import this exported file into any Email Marketing Services like MailChimp, GetResponse, AWeber, MailPoet, Drip, Hubspot, Marketo, ConvertKit, Infusionsoft, ConstantContact, MailerLite, CampaignMonitor, ActiveCampaign, Emma, Pardot, iContact, TotalSend, Customer.io , FeedBlitz etc.
 
 
