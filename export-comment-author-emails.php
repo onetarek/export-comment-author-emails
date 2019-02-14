@@ -186,7 +186,10 @@ class Export_Comment_Author_Emails{
 	public function export_comment_author_emails_ajax(){
 		
 		check_admin_referer( 'export_comment_author_emails', 'export_comment_author_emails_nonce' );
-
+		if( ! current_user_can('manage_options') )
+		{
+			echo __("You don't have persmission to do this", 'ecae'); exit;
+		}
 		set_time_limit(0);
 
 		$include_name = isset( $_POST['export_field_name'] ) ? 1 : 0;
