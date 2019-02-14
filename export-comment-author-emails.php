@@ -208,7 +208,7 @@ class Export_Comment_Author_Emails{
 			$file_type = 'csv';
 		}
 		$Content_Type = ( $file_type == 'csv' ) ? 'text/csv' : 'text/plain';
-		$file_ext = ( $file_type == 'csv' ) ? '.csv' : '.txt';
+		$file_ext = ( $file_type == 'csv' ) ? 'csv' : 'txt';
 
 		header('Content-Type: '.$Content_Type.'; charset=' . get_option( 'blog_charset' ));
 	    header('Content-Disposition: attachment; filename=comments-author-emails.' . $file_ext);
