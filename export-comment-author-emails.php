@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Export Comment Author Emails
- * Description: Create and export email list from existing comments on your website. Build an extra email list
+ * Description: Export email addresses list from existing comments on your website. Build an extra email list.
  * Plugin URI: http://onetarek.com/my-wordpress-plugins/export-comment-author-emails/
  * Author: oneTarek
  * Author URI: http://onetarek.com

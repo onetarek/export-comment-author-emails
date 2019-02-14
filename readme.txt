@@ -5,17 +5,17 @@ Author: onetarek
 Author URI: http://onetarek.com
 Plugin URI: http://onetarek.com/my-wordpress-plugins/export-comment-author-emails/
 Donate link: http://onetarek.com
-Tags: Email Marketing, Email list building, Export, Comments, Mailinglist
+Tags: Email Marketing, Email list building, Export, Comments, Comment Author, Mailinglist
 Requires at least: 3.6.0
 Tested up to: 5.0.3
 Stable tag: 1.0.0
 License: GPLv2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create and export email list from existing comments on your website. Export comment author's name, email address and website url as CSV or Text file. 
+Export email address list from existing comments on your website. Export comment authors' name, email address and website url as CSV or Text file. 
 
 == Description ==
-Do you know you have a hidden email list on your website? Increase your email list by exporting visitors' emails from existing comments on your website.
+Do you know you have a hidden **email list** on your website? Explore the email address list that you never aware of. **Grow your email list** by exporting visitors' email addresses from existing comments on your website.
 
 Using **Export Comment Author Emails** plugin you can create and export email list from existing comments on your website. Export comment author's name, email address and website url in CSV or plain text format. Some comments are marked as spam. This plugin will not take email address from spam comments. You can choose which fields you want to export. By default, it will export emails as Comma-Separated CSV file. You can choose the separator text. This is a very helpful plugin for email list building. You can import this exported file into any Email Marketing Services like MailChimp, GetResponse, AWeber, MailPoet, Drip, Hubspot, Marketo, ConvertKit, Infusionsoft, ConstantContact, MailerLite, CampaignMonitor, ActiveCampaign, Emma, Pardot, iContact, TotalSend, Customer.io , FeedBlitz etc.
 
