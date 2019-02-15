@@ -197,7 +197,7 @@ class Export_Comment_Author_Emails{
 		$include_url = isset( $_POST['export_field_url'] ) ? 1 : 0;
 		$set_header_row = isset( $_POST['export_header_row'] ) ? 1 : 0;
 
-		$delimiter = isset( $_POST['export_delimiter'] ) ? trim( $_POST['export_delimiter'] ) : ',';
+		$delimiter = isset( $_POST['export_delimiter'] ) ? sanitize_text_field( trim( $_POST['export_delimiter'] ) ) : ',';
 		if( $delimiter == "" )
 		{ 
 			$delimiter = ',';
