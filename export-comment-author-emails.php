@@ -202,7 +202,7 @@ class Export_Comment_Author_Emails{
 		{ 
 			$delimiter = ',';
 		}
-		$file_type = isset( $_POST['export_file_type'] ) ? trim( $_POST['export_file_type'] ) : 'csv';
+		$file_type = isset( $_POST['export_file_type'] ) ? sanitize_file_name( trim( $_POST['export_file_type'] ) ) : 'csv';
 		if( $file_type != 'csv' && $file_type != 'txt' )
 		{
 			$file_type = 'csv';
